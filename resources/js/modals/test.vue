@@ -10,7 +10,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="row" >
-                            <div class="col-md-4 offset-4 >
+                            <div class="col-md-4 offset-4">
                                 <div class="form-group">
                                     <input type="number" v-model="number" min="1" max="999" class="form-control"
                                            id="test_num"
