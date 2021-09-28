@@ -2454,7 +2454,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.peto {\n    height: 100vh;\n}\n.btnStyle {\n    border-radius: 50px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.peto {\r\n    height: 100vh;\n}\n.btnStyle {\r\n    border-radius: 50px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2478,7 +2478,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.modal-body[data-v-9d0cb16e] {\n    margin: 0 !important;\n}\n.modal[data-v-9d0cb16e] {\n    padding: 0 !important;\n}\n/* Important part */\n.modal-dialog[data-v-9d0cb16e]{\n    overflow-y: initial !important\n}\n.modal-body[data-v-9d0cb16e]{\n    height: 80vh;\n    overflow-y: auto;\n}\n.modal[data-v-9d0cb16e] {\n    background-color: rgba(28, 25, 25, 0.7) !important;\n}\n.myTable[data-v-9d0cb16e] {\n    color: grey;\n    padding: 0;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.modal-body[data-v-9d0cb16e] {\r\n    margin: 0 !important;\n}\n.modal[data-v-9d0cb16e] {\r\n    padding: 0 !important;\n}\r\n/* Important part */\n.modal-dialog[data-v-9d0cb16e]{\r\n    overflow-y: initial !important\n}\n.modal-body[data-v-9d0cb16e]{\r\n    height: 80vh;\r\n    overflow-y: auto;\n}\n.modal[data-v-9d0cb16e] {\r\n    background-color: rgba(28, 25, 25, 0.7) !important;\n}\n.myTable[data-v-9d0cb16e] {\r\n    color: grey;\r\n    padding: 0;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2502,7 +2502,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.modal-body[data-v-6ee91a1a] {\n    margin: 0 !important;\n}\n.modal[data-v-6ee91a1a] {\n    padding: 0 !important;\n}\n.modal[data-v-6ee91a1a] {\n    background-color: rgba(28, 25, 25, 0.7) !important;\n}\n.myTable[data-v-6ee91a1a] {\n    color: grey;\n    padding: 0;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.modal-body[data-v-6ee91a1a] {\r\n    margin: 0 !important;\n}\n.modal[data-v-6ee91a1a] {\r\n    padding: 0 !important;\n}\n.modal[data-v-6ee91a1a] {\r\n    background-color: rgba(28, 25, 25, 0.7) !important;\n}\n.myTable[data-v-6ee91a1a] {\r\n    color: grey;\r\n    padding: 0;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2526,7 +2526,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.modal-body[data-v-5228fd0d] {\n    margin: 0 !important;\n}\n/* Important part */\n.modal-dialog[data-v-5228fd0d]{\n    overflow-y: initial !important\n}\n.modal-body[data-v-5228fd0d]{\n    height: 80vh;\n    overflow-y: auto;\n}\n.modal[data-v-5228fd0d] {\n\n    padding: 0 !important;\n}\n.modal[data-v-5228fd0d] {\n    background-color: rgba(28, 25, 25, 0.7) !important;\n}\n.myTable[data-v-5228fd0d] {\n    color: grey;\n    padding: 0;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.modal-body[data-v-5228fd0d] {\r\n    margin: 0 !important;\n}\r\n/* Important part */\n.modal-dialog[data-v-5228fd0d]{\r\n    overflow-y: initial !important\n}\n.modal-body[data-v-5228fd0d]{\r\n    height: 80vh;\r\n    overflow-y: auto;\n}\n.modal[data-v-5228fd0d] {\r\n\r\n    padding: 0 !important;\n}\n.modal[data-v-5228fd0d] {\r\n    background-color: rgba(28, 25, 25, 0.7) !important;\n}\n.myTable[data-v-5228fd0d] {\r\n    color: grey;\r\n    padding: 0;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -21271,111 +21271,116 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._v('">\n                                '),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.number,
-                        expression: "number"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "number",
-                      min: "1",
-                      max: "999",
-                      id: "test_num",
-                      placeholder: " 1 to 999"
-                    },
-                    domProps: { value: _vm.number },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.number = $event.target.value
-                      }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "valid-feedback" }, [
-                    _vm._v("Valid.")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v("Please fill ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "form-group d-flex justify-content-around " },
-                  [
-                    _c(
-                      "button",
-                      {
-                        staticClass: "btn btn-warning ready",
-                        attrs: { type: "submit" },
+                  _c("div", { staticClass: "col-md-4 offset-4" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.number,
+                            expression: "number"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          min: "1",
+                          max: "999",
+                          id: "test_num",
+                          placeholder: " 1 to 999"
+                        },
+                        domProps: { value: _vm.number },
                         on: {
-                          click: function($event) {
-                            return _vm.readyNumber()
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.number = $event.target.value
                           }
                         }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "valid-feedback" }, [
+                        _vm._v("Valid.")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "invalid-feedback" }, [
+                        _vm._v("Please fill ")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "form-group d-flex justify-content-around "
                       },
-                      [_vm._v("Check\n                                ")]
+                      [
+                        _c(
+                          "button",
+                          {
+                            staticClass: "btn btn-warning ready",
+                            attrs: { type: "submit" },
+                            on: {
+                              click: function($event) {
+                                return _vm.readyNumber()
+                              }
+                            }
+                          },
+                          [_vm._v("Check\n                                ")]
+                        )
+                      ]
                     )
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-8 offset-2 myTable" }, [
-                _c("div", { staticClass: "table-responsive" }, [
-                  _c("p", [_vm._v("Битва экстрасенсов")]),
+                  ]),
                   _vm._v(" "),
-                  _c(
-                    "table",
-                    {
-                      staticClass:
-                        "table table-bordered table-hover table-striped"
-                    },
-                    [
-                      _vm._m(0),
+                  _c("div", { staticClass: "col-md-8 offset-2 myTable" }, [
+                    _c("div", { staticClass: "table-responsive" }, [
+                      _c("p", [_vm._v("Битва экстрасенсов")]),
                       _vm._v(" "),
                       _c(
-                        "tbody",
-                        { staticClass: "tbody" },
-                        _vm._l(_vm.extrasenseNumbers, function(round) {
-                          return _c(
-                            "tr",
-                            _vm._l(round, function(extrasensNumber) {
+                        "table",
+                        {
+                          staticClass:
+                            "table table-bordered table-hover table-striped"
+                        },
+                        [
+                          _vm._m(0),
+                          _vm._v(" "),
+                          _c(
+                            "tbody",
+                            { staticClass: "tbody" },
+                            _vm._l(_vm.extrasenseNumbers, function(round) {
                               return _c(
-                                "td",
-                                {
-                                  class: {
-                                    "text-success":
-                                      typeof extrasensNumber === "string",
-                                    "text-danger":
-                                      typeof extrasensNumber === "number"
-                                  }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n                                            " +
-                                      _vm._s(extrasensNumber) +
-                                      "\n                                        "
+                                "tr",
+                                _vm._l(round, function(extrasensNumber) {
+                                  return _c(
+                                    "td",
+                                    {
+                                      class: {
+                                        "text-success":
+                                          typeof extrasensNumber === "string",
+                                        "text-danger":
+                                          typeof extrasensNumber === "number"
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                                            " +
+                                          _vm._s(extrasensNumber) +
+                                          "\n                                        "
+                                      )
+                                    ]
                                   )
-                                ]
+                                }),
+                                0
                               )
                             }),
                             0
                           )
-                        }),
-                        0
+                        ]
                       )
-                    ]
-                  )
+                    ])
+                  ])
                 ])
               ])
             ])
@@ -33579,7 +33584,7 @@ Vue.compile = compileToFunctions;
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"axios@^0.21","name":"axios","escapedName":"axios","rawSpec":"^0.21","saveSpec":null,"fetchSpec":"^0.21"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_shasum":"c67b90dc0568e5c1cf2b0b858c43ba28e2eda575","_spec":"axios@^0.21","_where":"H:\\\\programs\\\\xampp\\\\htdocs\\\\TestExtrasenses","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundleDependencies":false,"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"deprecated":false,"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
+module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
 
 /***/ })
 
